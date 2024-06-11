@@ -1,0 +1,74 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #efeeee;
+    width: 100vw;
+    height: 100vh;
+
+    h1 {
+        margin: 0;
+        color: #A1A2AB;
+        font-weight: 400;
+        font-size: 250px;
+        padding: none;
+        line-height: 0.9;
+    }
+
+    .name {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 100px;
+
+        .nav-buttons {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            margin-bottom: 30px;
+        }
+    }
+
+    .nav-buttons > .places > .nav-button {
+        margin-bottom: 30px;
+    }
+
+    .title {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 100px;
+        
+        h1 {
+            text-align: right;
+        }
+
+        .button {
+            margin-right: 30px;
+        }
+
+        .bio {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            p {
+                color: #A1A2AB;
+                font-size: 20px;
+                margin: 0;
+                padding: 50px 100px 50px 0;
+            }
+
+            .social-buttons {
+                display: flex;
+                margin: 0;
+            }
+        }
+    }
+
+    .bio > .social-buttons > .nav-button {
+        margin: 0 30px 20px 0;
+    }
+}
