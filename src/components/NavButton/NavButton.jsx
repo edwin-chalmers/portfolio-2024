@@ -1,6 +1,6 @@
 import './NavButton.css';
 
-export default function NavButton({ type }) {
+export default function NavButton({ type, url }) {
     const iconSrc =
         type === 'about' 
         ? './assets/about.svg'
@@ -18,8 +18,12 @@ export default function NavButton({ type }) {
                                 ? './assets/friends.svg'
                                     : './assets/sick.svg'; 
 
+    const handleClick = () => {
+        window.open(url, '_blank', 'noopener,noreferrer');
+    };
+
     return (
-        <button className='nav-button'>
+        <button className='nav-button' onClick={handleClick}>
             <img src={iconSrc} alt={`${type} icon`} />
         </button>
     );

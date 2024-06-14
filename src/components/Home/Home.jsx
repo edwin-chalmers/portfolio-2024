@@ -27,9 +27,9 @@ export default function Home() {
               </p>
             </>
             <div className='social-buttons'>
-              <NavButton type={"linkedin"}/>
-              <NavButton type={"github"}/>
-              <NavButton type={"twitter"}/>
+              <NavButton type={"linkedin"} url='https://linkedin.com/in/edwinchalmers/' />
+              <NavButton type={"github"} url='https://github.com/edwin-chalmers' />
+              <NavButton type={"twitter"} url='https://x.com' />
             </div>
           </div>
           <h1>UI UX <br/> DEVELOPER</h1>
