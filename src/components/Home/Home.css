@@ -10,7 +10,7 @@
         margin: 0;
         color: #A1A2AB;
         font-weight: 400;
-        font-size: 250px;
+        font-size: 10em;
         padding: none;
         line-height: 0.9;
     }
@@ -18,7 +18,7 @@
     .name {
         display: flex;
         justify-content: space-between;
-        padding: 0 100px;
+        padding: 0 100px 0 80px;
 
         h1 {
             color: #FE5876;
@@ -37,7 +37,7 @@
     }
 
     .nav-buttons > .places > .nav-button {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .title {
@@ -60,9 +60,9 @@
 
             p {
                 color: #A1A2AB;
-                font-size: 20px;
+                font-size: 13px;
                 margin: 0;
-                padding: 50px 100px 50px 0;
+                padding: 0px 60px 60px 0;
             }
 
             .social-buttons {
@@ -73,6 +73,6 @@
     }
 
     .bio > .social-buttons > .nav-button {
-        margin: 0 30px 20px 0;
+        margin: 0 20px 10px 0;
     }
 }
