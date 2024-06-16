@@ -17,8 +17,15 @@
     img {
         width: 18px;
     }
-}
 
-.nav-button:hover {
-    border-color: #FE5876;
+    &:hover {
+        border-color: #FE5876;
+    }
+
+    &:active {
+        border: none;
+        box-shadow:
+        inset -6px -6px 10px rgba(255, 255, 255, 1),
+        inset 6px 6px 10px rgba(209, 205, 199, 0.8);
+    }
 }
