@@ -18,8 +18,8 @@ export default function Home() {
         <div className='title'>
           <div className='bio'>
             <>
-              <p>Empathetic UI UX Designer and Front-End Developer 
-                <br/>with 5 years of experience creating user-centric digital experiences.
+              <p>Empathetic UI UX Designer and Front-End Software Developer with 5 years of experience creating user-centric digital experiences. 
+                {/* <br/>of experience creating user-centric digital experiences. */}
                 <br/>
                 <br/>(702) 513-0420
                 <br/>edwin@chalmers.cool

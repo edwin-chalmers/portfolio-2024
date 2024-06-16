@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70px;
-    height: 70px;
+    width: 45px;
+    height: 45px;
     padding: 0;
     /* margin-bottom: 30px; */
     background-color: #efeeee;
@@ -15,7 +15,7 @@
         6px 6px 16px rgba(209, 205, 199, 0.8);
 
     img {
-        width: 30px;
+        width: 18px;
     }
 }
 
