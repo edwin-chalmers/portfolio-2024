@@ -2,6 +2,7 @@ const friendfolios = [
     'https://www.tomconey.dev/',
     'https://www.trichardsphillips.com/resume/',
     'https://www.erinjkelley.com/',
+    'https://www.adambedient.com/',
 ]
 
 export default function returnRandomFriendfolio() {

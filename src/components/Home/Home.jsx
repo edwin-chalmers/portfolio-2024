@@ -11,7 +11,7 @@ export default function Home() {
   }
 
   return (
-    <div className='home'>
+    <div className='Home'>
       <div className='name'>
         <h1>
           <span className='name-edwin'>EDWIN</span>
@@ -23,7 +23,6 @@ export default function Home() {
             <NavButton type={"projects"} />
             <NavButton type={"mail"} />
           </div>
-          {/* Pass the friendUrl as prop and update it on click */}
           <NavButton type={"friends"} url={friendUrl} onClick={updateFriendUrl} />
         </div>
       </div>
