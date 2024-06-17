@@ -1,0 +1,51 @@
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Mail {
+    align-items: center;
+    background-color: var(--background-color);
+    width: 100vw;
+    height: 100vh;
+
+    .mail-contaner {
+        width: 650px;
+    }
+
+    .full-name-inputs {
+        display: flex;
+
+        .first-name-input{
+            margin-right: 5px;
+        }
+
+        .last-name-input{
+            margin-left: 5px;
+        }
+    }
+
+    h1 {
+        font-size: 3em;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+        
+    h2 {
+        font-size: 1.5em;
+        margin-left: 5px;
+    }
+
+    input, textarea {
+        margin: 10px 0 20px 0;
+    }
+        
+    .message-input {
+        height: 200px;
+    }
+
+    .NavButton {
+        margin-left: -3px;
+    }
+}

@@ -11,7 +11,11 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --background-color: #efeeee;
+  --primary-color: #A1A2AB;
+  --accent-color: #FE5876;
 }
+
 
 body {
   margin: 0;
@@ -31,3 +35,44 @@ button {
   transition: border-color 0.25s;
 }
 
+h1 {
+  margin: 0;
+  color: var(--primary-color);
+  font-weight: 400;
+  font-size: 10em;
+  padding: none;
+  line-height: 0.9;
+}
+
+h2 {
+  margin: 0;
+  color: var(--primary-color);
+  font-weight: 400;
+  font-size: 8em;
+  padding: none;
+  line-height: 0.9;
+}
+
+input, textarea {
+  box-sizing: border-box;
+  color: var(--primary-color);
+  background-color: var(--background-color);
+  border: solid var(--primary-color) 1px;
+  border-radius: 3px;
+  height: 30px;
+  width: 100%;
+  padding: 5px 5px;
+  
+  &:hover {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+    transition: border-color 0.25s;
+  }
+  
+  &:focus {
+    color: var(--accent-color);
+    outline: 2px double var(--accent-color);
+    outline-offset: -1px;
+    border-color: rgba(0,0,0,0);
+  }
+}

@@ -16,7 +16,7 @@ export default function NavButton({ type, url, onClick }) {
     }
 
     return (
-        <button className='nav-button' onClick={handleClick}>
+        <button className='NavButton' onClick={handleClick}>
             <img src={iconSrc} alt={`${type} icon`} />
         </button>
     )

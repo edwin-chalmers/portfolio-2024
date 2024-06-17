@@ -1,13 +1,12 @@
-.nav-button {
+.NavButton {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 45px;
     height: 45px;
     padding: 0;
-    /* margin-bottom: 30px; */
-    background-color: #efeeee;
-    color: #A1A2AB;
+    background-color: var(--background-color);
+    color: var(--primary-color);
     font-size: 25px;
     border-radius: 100px;
     box-shadow:
@@ -19,7 +18,7 @@
     }
 
     &:hover {
-        border-color: #FE5876;
+        border-color: var(--accent-color);
     }
 
     &:active {
