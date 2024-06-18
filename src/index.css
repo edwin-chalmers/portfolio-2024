@@ -16,14 +16,13 @@
   --accent-color: #FE5876;
 }
 
-
 body {
   margin: 0;
   display: flex;
   place-items: center;
 }
 
-button {
+button, a {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -61,18 +60,25 @@ input, textarea {
   border-radius: 3px;
   height: 30px;
   width: 100%;
-  padding: 5px 5px;
+  padding: 5px 10px;
+  resize: none; 
   
   &:hover {
     color: var(--accent-color);
     border-color: var(--accent-color);
-    transition: border-color 0.25s;
+    transition: 
+      color 0.25s,
+      border-color 0.25s;
   }
   
   &:focus {
     color: var(--accent-color);
-    outline: 2px double var(--accent-color);
+    outline: none;
     outline-offset: -1px;
+    box-shadow:
+      -6px -6px 16px rgba(255, 255, 255, 1),
+      6px 6px 16px rgba(209, 205, 199, 0.8);
+
     border-color: rgba(0,0,0,0);
   }
 }

@@ -21,9 +21,9 @@ export default function Home() {
           <div className='places'>
             <NavButton type={"about"} />
             <NavButton type={"projects"} />
-            <NavButton type={"mail"} />
+            <NavButton type={"mail"} to={'/mail'}/>
           </div>
-          <NavButton type={"friends"} url={friendUrl} onClick={updateFriendUrl} />
+          <NavButton type={"friends"} url={friendUrl} updateFriendUrl={updateFriendUrl} />
         </div>
       </div>
       <div className='title'>
@@ -35,9 +35,9 @@ export default function Home() {
             <br />Denver, CO
           </p>
           <div className='social-buttons'>
-            <NavButton type={"linkedin"} url='https://linkedin.com/in/edwinchalmers/' />
-            <NavButton type={"github"} url='https://github.com/edwin-chalmers' />
-            <NavButton type={"twitter"} url='https://x.com' />
+            <NavButton type={"linkedin"} url={'https://linkedin.com/in/edwinchalmers/'} />
+            <NavButton type={"github"} url={'https://github.com/edwin-chalmers'} />
+            <NavButton type={"twitter"} url={'https://x.com'} />
           </div>
         </div>
         <h1>UI UX <br /> DEVELOPER</h1>
