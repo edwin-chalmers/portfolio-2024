@@ -1,6 +1,5 @@
 import './Mail.css'
-import NavButton from '../components/NavButton/NavButton'
-import { Link } from 'react-router-dom'
+import NavButton from '../NavButton/NavButton'
 
 
 export default function Mail() {
